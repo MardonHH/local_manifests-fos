@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+
+  <!-- external Github remotes for Fortune OS -->
+  <remote name="omnirom" fetch="https://github.com/omnirom" />
+  <remote name="iSchneiderle" fetch="https://github.com/iSchneiderle" />
+  <remote name="Mardon" fetch="https://github.com/MardonHH" />
+  <remote name="cm" fetch="https://github.com/cyanogenmod" />
+  <remote name="lx" fetch="https://github.com/LegacyXperia" />
+  
+  <!-- LegacyXperia projects -->
+<remove-project name="Fortune-OS/android_hardware_ti_wlan" />
+  <project name="android_hardware_ti_wlan" path="hardware/ti/wlan" remote="lx" revision="cm-12.0" />
+<remove-project name="Fortune-OS/android_hardware_ti_wpan" />
+  <project name="android_hardware_ti_wpan" path="hardware/ti/wpan" remote="lx" revision="cm-12.0"  />
+
+  <!-- LegacyXperia projects adapted for Fortune OS -->
+  <project name="android_device_semc_msm7x30-common" path="device/semc/msm7x30-common" remote="Mardon" revision="cm-12.0" />
+  <project name="android_device_semc_anzu" path="device/semc/anzu" remote="Mardon" revision="cm-12.0" />  
+  <project name="android_device_semc_mogami-common" path="device/semc/mogami-common" remote="Mardon" revision="cm-12.0" />
+  <project name="android_kernel_semc_msm7x30" path="kernel/semc/msm7x30" remote="Mardon" revision="cm-12.0" />
+  
+  <!-- CyanogenMod projects -->
+  <!-- <project name="android_hardware_sony_DASH" path="hardware/sony/DASH" remote="cm" revision="cm-12.0" /> -->
+</manifest>
