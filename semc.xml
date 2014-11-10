@@ -11,7 +11,7 @@
   
   <!-- LegacyXperia projects -->
 <remove-project name="Fortune-OS/android_hardware_ti_wlan" />
-  <project name="android_hardware_ti_wlan" path="hardware/ti/wlan" remote="lx" revision="cm-11.0" />
+  <project name="android_hardware_ti_wlan" path="hardware/ti/wlan" remote="lx" revision="cm-10.2" />
 <remove-project name="Fortune-OS/android_hardware_ti_wpan" />
   <project name="android_hardware_ti_wpan" path="hardware/ti/wpan" remote="lx" revision="cm-11.0"  />
 
