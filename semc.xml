@@ -17,7 +17,7 @@
 
   <!-- LegacyXperia projects adapted for Fortune OS -->
   <project name="android_device_semc_msm7x30-common" path="device/semc/msm7x30-common" remote="Mardon" revision="cm-12.0" />
-  <project name="android_device_semc_anzu" path="device/semc/anzu" remote="Mardon" revision="cm-12.0" />  
+  <project name="android_device_semc_anzu" path="device/semc/anzu" remote="Mardon" revision="android-5.0" />  
   <project name="android_device_semc_mogami-common" path="device/semc/mogami-common" remote="Mardon" revision="cm-12.0" />
   <project name="android_kernel_semc_msm7x30" path="kernel/semc/msm7x30" remote="Mardon" revision="cm-12.0" />
   
